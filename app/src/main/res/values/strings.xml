@@ -2,4 +2,7 @@
     <string name="app_name">Tip Time</string>
     <string name="cost_of_service">Cost of Service</string>
     <string name="service_question">How was the service?</string>
+    <string name="option_twenty_percent">Amazing (20%)</string>
+    <string name="option_fifteen_percent">OK(15%)</string>
+    <string name="option_eighteen_percent">Good (18%)</string>
 </resources>
