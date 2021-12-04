@@ -9,8 +9,8 @@
 
     <EditText
         android:id="@+id/cost_of_service"
-        android:layout_height="wrap_content"
         android:layout_width="160dp"
+        android:layout_height="wrap_content"
         android:hint="@string/cost_of_service"
         android:inputType="numberDecimal"
         app:layout_constraintStart_toStartOf="parent"
@@ -28,8 +28,8 @@
         android:id="@+id/tip_options"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
         android:checkedButton="@id/option_twenty_percent"
+        android:orientation="vertical"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@id/service_question">
 
@@ -67,16 +67,15 @@
         android:layout_width="0dp"
         android:layout_height="wrap_content"
         android:text="@string/calculate_button_text"
-        app:layout_constraintTop_toBottomOf="@id/round_up_switch"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintEnd_toEndOf="parent" />
+        app:layout_constraintTop_toBottomOf="@id/round_up_switch" />
 
     <TextView
         android:id="@+id/tip_result"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/calculate_button"
-        android:text="@string/tip_amount" />
+        app:layout_constraintTop_toBottomOf="@id/calculate_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
